@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- boxicon -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/column.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dark-style.css">
+  <title>Dog</title>
+</head>
+<body>
+  
+  <header id="header">
+    <div class="container">
+      <div class="header-wrap row between">
+        <div class="header-text">
+          <h2 class="title">Where in the world?</h2>
+        </div>
+        <div class="mode">
+          <a href="index.html"><i class='bx bxs-moon' style='color:#ffffff'  ></i> Dark Mode</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- forms ========================= -->
+  <section id="forms">
+    <div class="container">
+      <div class="forms-wrap row between">
+        <div class="search-bar row align-center col-4">
+          <div class="icon">
+            <i class='bx bx-search-alt-2'></i>
+          </div>
+          <input type="text" name="country" placeholder="Search for a country...">
+        </div>
+        <div class="custom-select">
+          <select id="select">
+            <option disabled selected>Countries:</option>
+            <option value="1">Germany</option>
+            <option value="2">USA</option>
+            <option value="3">Brazil</option>
+            <option value="4">Iceland</option>
+            <option value="5">Afghanistan</option>
+            <option value="6">Aland Icelands</option>
+            <option value="7">Albania</option>
+            <option value="8">Algeria</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /forms ========================= -->
+
+  <!-- country cards ========================= -->
+  <section id="country-cards">
+    <div class="container">
+      <div class="country-cards-wrap">
+        <div class="cards-row-1 row between">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/germany.png" alt="image">
+            </div>
+            <div class="card-text">            
+              <h2 class="card-title">Germany</h2>
+              <p class="card-p">Population: <span>81,770,900</span></p>
+              <p class="card-p">Region: <span>Europe</span></p>
+              <p class="card-p">Capital: <span>Berlin</span></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img src="img/us.png" alt="image">
+            </div>
+            <div class="card-text">
+              <h2 class="card-title">U.S.A</h2>
+              <p class="card-p">Population: <span>323,947,000</span></p>
+              <p class="card-p">Region: <span>Americas</span></p>
+              <p class="card-p">Capital: <span>Washington. D.C.</span></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img src="img/brazil.png" alt="image">
+            </div>
+            <div class="card-text">
+              <h2 class="card-title">Brazil</h2>
+              <p class="card-p">Population: <span>206, 135, 893</span></p>
+              <p class="card-p">Region: <span>Americas</span></p>
+              <p class="card-p">Capital: <span>Brasilia</span></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img src="img/iceland.png" alt="image">
+            </div>
+            <div class="card-text">
+              <h2 class="card-title">Iceland</h2>
+              <p class="card-p">Population: <span>334,300</span></p>
+              <p class="card-p">Region: <span>Europe</span></p>
+              <p class="card-p">Capital: <span>Reykjavik</span></p>
+            </div>
+          </div> 
+        </div>
+        <!-- ========================================== -->
+        <div class="cards-row-2 row between">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/afghanistan.png" alt="image">
+            </div>
+            <div class="card-text">
+              <h2 class="card-title">Afghanistan</h2>
+              <p class="card-p">Population: <span>27,657,145</span></p>
+              <p class="card-p">Region: <span>Asia</span></p>
+              <p class="card-p">Capital: <span>Kabul</span></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img src="img/islands.png" alt="image">
+            </div>
+            <div class="card-text">
+              <h2 class="card-title">Aland islands</h2>
+              <p class="card-p">Population: <span>28,875</span></p>
+              <p class="card-p">Region: <span>Europe</span></p>
+              <p class="card-p">Capital: <span>Mariehamn</span></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img src="img/albania.png" alt="image">
+            </div>
+            <div class="card-text">
+              <h2 class="card-title">Albania</h2>
+              <p class="card-p">Population: <span>2,886,026</span></p>
+              <p class="card-p">Region: <span>Europe</span></p>
+              <p class="card-p">Capital: <span>Tirana</span></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img src="img/algeria.png" alt="image">
+            </div>
+            <div class="card-text">
+              <h2 class="card-title">Algeria</h2>
+              <p class="card-p">Population: <span>40,400,000</span></p>
+              <p class="card-p">Region: <span>Africa</span></p>
+              <p class="card-p">Capital: <span>Algiers</span></p>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /country cards ========================= -->
+
+</body>
+</html>

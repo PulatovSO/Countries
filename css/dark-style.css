@@ -1,0 +1,29 @@
+
+body{
+  background-color: #202C36;
+  color: #ffffff;
+}
+
+#header, 
+.search-bar, 
+input, 
+#select,
+.card{
+  background-color: #2B3844;
+}
+
+#select{
+  border: 1px solid #2B3844;
+}
+
+.mode a,
+::placeholder,
+.custom-select select,
+.card-title,
+.card-p{
+  color: #ffffff;
+}
+
+.card-p span{
+  color: #b8b8b8;
+}
